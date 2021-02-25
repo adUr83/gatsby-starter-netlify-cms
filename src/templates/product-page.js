@@ -19,7 +19,7 @@ export const ProductPageTemplate = ({
   pricing,
 }) => (
   <div className="content">
-    <div
+    {/* <div
       className="full-width-image-container margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -38,7 +38,7 @@ export const ProductPageTemplate = ({
       >
         {title}
       </h2>
-    </div>
+    </div> */}
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -62,22 +62,22 @@ export const ProductPageTemplate = ({
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile">
-                    <div className="tile is-parent is-vertical">
+                    {/* <div className="tile is-parent is-vertical">
                       <article className="tile is-child">
                         <PreviewCompatibleImage imageInfo={main.image1} />
                       </article>
-                    </div>
-                    <div className="tile is-parent">
+                    </div> */}
+                    {/* <div className="tile is-parent">
                       <article className="tile is-child">
                         <PreviewCompatibleImage imageInfo={main.image2} />
                       </article>
-                    </div>
+                    </div> */}
                   </div>
-                  <div className="tile is-parent">
+                  {/* <div className="tile is-parent">
                     <article className="tile is-child">
                       <PreviewCompatibleImage imageInfo={main.image3} />
                     </article>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
@@ -91,10 +91,10 @@ export const ProductPageTemplate = ({
                   })`,
                 }}
               />
-              <h2 className="has-text-weight-semibold is-size-2">
+              {/* <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
+              </h2> */}
+              {/* <p className="is-size-5">{pricing.description}</p> */}
               <Pricing data={pricing.plans} />
             </div>
           </div>
