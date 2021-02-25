@@ -2,19 +2,36 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-
+import blueVector from "../img/blue-vector.svg";
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns ">
+         <div className=" column" >
+
+       
+
+         <div
+                      className="title has-text-primary rem-10  "
+                    
+                    >
+                      Vi hjälper dig att:
+                    </div>
+                      <div className="blue-vector">
+                      <img src={blueVector}/>
+                      </div>
+
+
+         </div>
+         <div className=" column" >
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-12" key={post.id}>
+            <div className=" column" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`blog-list-item tile is-child   ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -30,9 +47,9 @@ class BlogRoll extends React.Component {
                     </div>
                   ) : null} */}
                   <p className="post-meta">
-                  <span> &bull; </span>
+                  {/* <span> &bull; </span> */}
                     <Link
-                      className="title has-text-primary is-size-8"
+                      className="title has-text-primary underline is-size-8"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
@@ -54,6 +71,7 @@ class BlogRoll extends React.Component {
               </article>
             </div>
           ))}
+            </div>
       </div>
     )
   }
