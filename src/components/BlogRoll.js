@@ -49,7 +49,7 @@ class BlogRoll extends React.Component {
                   <p className="post-meta">
                   {/* <span> &bull; </span> */}
                     <Link
-                      className="title has-text-primary underline is-size-8"
+                      className="title has-text-primary underline is-size-8 anim"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
