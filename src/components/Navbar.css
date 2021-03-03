@@ -1,0 +1,53 @@
+.navbar-color {
+    background-color: rgb(152, 218, 236) !important;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: relative;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: minmax(50%, max-content);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.navbar-color a {
+    color: #100c08 !important;
+}
+text-1 {
+    text-align: left;
+    line-height: 16px;
+}
+
+nav-2 {
+    align-self: start;
+    justify-self: start;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    grid-area: 1/2/2/3;
+}
+
+.navbar-start a {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-start {
+    margin-left: auto;
+}
+.navbar-brand a {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-brand {
+    height: 40px !important;
+}
+/* <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 780.3 340.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780.3 340.2" height="341" width="781" data-type="shape" role="img" aria-labelledby="svgcid--ox29ycg9l6qn"><title id="svgcid--ox29ycg9l6qn"></title>
+    <g>
+        <path d="M340.2 0v340.2H0V0h340.2z"></path>
+        <path d="M780.2 193.1v-45.9H553.1L780.3 46.1l-.1-.2V0h-340v46.1h227.2L440.2 147.2v46h227.1L440.2 294.3v45.9h340v-45.9H553.1l227.2-101.1-.1-.1z"></path>
+    </g>
+</svg> */
