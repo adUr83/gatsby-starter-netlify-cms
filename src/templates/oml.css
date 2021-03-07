@@ -1,0 +1,107 @@
+* {
+  --minViewportSize: 320;
+  --maxViewportSize: 1920;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #c4b2f4;
+}
+.image-box {
+  overflow: hidden;
+  padding: 10px;
+}
+.image-box img {
+  display: block !important;
+}
+
+@font-face {
+  font-family: "Mabry Pro Medium";
+  src: url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.eot");
+  src: url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.svg#Mabry Pro Medium")
+      format("svg");
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.slider-container {
+  width: 70%;
+  display: inline;
+  margin: 50px;
+}
+
+.side-header {
+  font-family: "Mabry Pro Medium";
+  width: 20%;
+  font-weight: lighter;
+  font-size: calc(
+    105px + (120 - 105) *
+      (
+        (100vw - var(--minViewportSize) * 1px) /
+          (var(--maxViewportSize) - var(--minViewportSize))
+      )
+  );
+}
+.text-box {
+  width: 60%;
+  overflow: hidden;
+  margin-left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+.link {
+  text-decoration: underline;
+}
+.sticker-1 {
+  position: absolute;
+  z-index: 4;
+  top: 43rem;
+  left: 27%;
+  transform: rotate(29deg);
+}
+.sticker-1 img {
+  width: 320px;
+}
+.sticker {
+  position: relative;
+  left: 60%;
+  top: -55%;
+  width: 300px;
+  transform: rotate(-20deg);
+}
+.sticker-container {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+.parallax-container {
+  margin-top: 130px;
+  width: 42%;
+  height: 620px;
+}
+.parallax {
+  background-image: url("./assets//parallax.webp");
+  width: 100%;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-size: 100;
+}
+.sticker-2 {
+  transform: rotate(5deg);
+  width: 200px;
+  left: 62%;
+}
