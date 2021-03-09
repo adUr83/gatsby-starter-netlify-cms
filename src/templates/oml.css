@@ -1,107 +1,223 @@
 * {
-  --minViewportSize: 320;
-  --maxViewportSize: 1920;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    --minViewportSize: 320;
+    --maxViewportSize: 1920;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+html,
 body {
-  background: #c4b2f4;
+    font-family: "Maven Pro", sans-serif;
+    background: #c4b2f4 !important;
 }
+
 .image-box {
-  overflow: hidden;
-  padding: 10px;
+    overflow: hidden;
+    padding: 10px;
 }
 .image-box img {
-  display: block !important;
+    display: block !important;
 }
 
-@font-face {
-  font-family: "Mabry Pro Medium";
-  src: url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.eot");
-  src: url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.svg#Mabry Pro Medium")
-      format("svg");
-}
 .row {
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
 }
 
 .slider-container {
-  width: 70%;
-  display: inline;
-  margin: 50px;
+    width: 70%;
+    display: inline;
+    margin: 50px;
 }
 
 .side-header {
-  font-family: "Mabry Pro Medium";
-  width: 20%;
-  font-weight: lighter;
-  font-size: calc(
-    105px + (120 - 105) *
-      (
-        (100vw - var(--minViewportSize) * 1px) /
-          (var(--maxViewportSize) - var(--minViewportSize))
-      )
-  );
+    font-size: 8.063rem;
+    margin-top: 4rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 0.95;
+    color: rgb(16, 12, 8);
 }
 .text-box {
-  width: 60%;
-  overflow: hidden;
-  margin-left: 25%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+    width: 60%;
+    overflow: hidden;
+    margin-left: 27.5%;
+
+    color: #1d1e1f;
+    font-size: 22px;
+    line-height: 1.27;
 }
 .link {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 .sticker-1 {
-  position: absolute;
-  z-index: 4;
-  top: 43rem;
-  left: 27%;
-  transform: rotate(29deg);
+    position: absolute;
+    z-index: 4;
+    top: 94%;
+    left: 27%;
+    transform: rotate(15deg);
 }
 .sticker-1 img {
-  width: 320px;
+    width: 357px;
 }
 .sticker {
-  position: relative;
-  left: 60%;
-  top: -55%;
-  width: 300px;
-  transform: rotate(-20deg);
+    position: relative;
+    left: 60%;
+    top: -55%;
+    width: 300px;
+    transform: rotate(-20deg);
 }
-.sticker-container {
-  position: absolute;
-  top: 80%;
-  left: 40%;
-}
+
 .parallax-container {
-  margin-top: 130px;
-  width: 42%;
-  height: 620px;
+    margin-top: 15rem;
+    width: 42%;
+    height: 620px;
 }
 .parallax {
-  background-image: url("./assets//parallax.webp");
-  width: 100%;
-  height: 420px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left bottom;
-  background-size: 100;
+    background-image: url("./assets//parallax.webp");
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    background-size: 100;
 }
+
+.slick img {
+    max-width: 100%;
+    height: 204px;
+}
+
+.sticker-container {
+    position: relative;
+    padding-bottom: 20rem;
+}
+
 .sticker-2 {
-  transform: rotate(5deg);
-  width: 200px;
-  left: 62%;
+    position: absolute;
+    left: 60%;
+    transform: rotate(-20deg);
+}
+
+.sticker-3 {
+    position: absolute;
+    left: 78%;
+    transform: rotate(5deg);
+}
+
+@media only screen and (max-width: 1440px) {
+    .sticker-1 {
+        top: 130%;
+    }
+}
+
+@media only screen and (max-width: 1199.67px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .row {
+        display: inherit;
+    }
+
+    .sticker-1 {
+        top: 115%;
+    }
+
+    .sticker-2 {
+        left: 0;
+    }
+
+    .sticker-3 {
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024.67px) {
+    .row {
+        display: inherit;
+    }
+
+    .sticker-1 {
+        top: 78%;
+    }
+}
+
+@media only screen and (max-width: 991.67px) {
+    .sticker-1 {
+        top: 119%;
+    }
+}
+
+@media only screen and (max-width: 767.67px) {
+    .sticker-1 {
+        top: 146%;
+    }
+}
+
+@media only screen and (max-width: 575.67px) {
+    .sticker-1 {
+        top: 159%;
+    }
+
+    .sticker-2,
+    .sticker-3 {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 480.67px) {
+    .sticker-1 {
+        top: 190%;
+    }
+
+    .sticker-1 img {
+        width: 320px;
+    }
+
+    .sticker-2,
+    .sticker-3 {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 414.67px) {
+    .sticker-1 {
+        top: 240%;
+    }
+    .sticker-1 img {
+        width: 275px;
+    }
+}
+
+@media only screen and (max-width: 375.67px) {
+    .sticker-1 {
+        top: 278%;
+    }
+
+    .sticker-1 img {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 360.67px) {
+    .sticker-1 {
+        top: 307%;
+    }
+
+    .sticker-1 img {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 320.67px) {
+    .sticker-1 {
+        top: 366%;
+    }
+
+    .sticker-1 img {
+        width: 225px;
+    }
 }

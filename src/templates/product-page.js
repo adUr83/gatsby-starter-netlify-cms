@@ -8,7 +8,7 @@ import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 import "./oml.css";
-import Page from "./Page";
+import Slick from "./Slick";
 import sticker1 from "./assets/sticker1.webp";
 import sticker2 from "./assets/sticker2.webp";
 import sticker3 from "./assets/sticker3.webp";
@@ -49,7 +49,7 @@ export const ProductPageTemplate = ({
             <div className="row">
                 <span className="side-header">Vi är BLK LZY </span>
                 <div className="slider-container">
-                    <Page />
+                    <Slick />
                 </div>
             </div>
             <div className="row text-box">
@@ -80,8 +80,8 @@ export const ProductPageTemplate = ({
                 <div className="parallax"></div>
             </div>
             <div className="sticker-container">
-                <img className="sticker" src={sticker2} />
-                <img className="sticker sticker-2" src={sticker3} />
+                <img className="sticker-2" src={sticker2} />
+                <img className=" sticker-3" src={sticker3} />
             </div>
         </div>
     </div>
@@ -115,17 +115,19 @@ const ProductPage = ({ data }) => {
     const { frontmatter } = data.markdownRemark;
 
     return (
-        <ProductPageTemplate
-            image={frontmatter.image}
-            title={frontmatter.title}
-            heading={frontmatter.heading}
-            description={frontmatter.description}
-            intro={frontmatter.intro}
-            main={frontmatter.main}
-            testimonials={frontmatter.testimonials}
-            fullImage={frontmatter.full_image}
-            pricing={frontmatter.pricing}
-        />
+        <Layout>
+            <ProductPageTemplate
+                image={frontmatter.image}
+                title={frontmatter.title}
+                heading={frontmatter.heading}
+                description={frontmatter.description}
+                intro={frontmatter.intro}
+                main={frontmatter.main}
+                testimonials={frontmatter.testimonials}
+                fullImage={frontmatter.full_image}
+                pricing={frontmatter.pricing}
+            />
+        </Layout>
     );
 };
 
