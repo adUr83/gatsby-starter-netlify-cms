@@ -9,7 +9,7 @@
 html,
 body {
     font-family: "Maven Pro", sans-serif;
-    background: #c4b2f4;
+    background: #c4b2f4  !important;
 }
 
 .image-box {

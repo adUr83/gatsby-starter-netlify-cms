@@ -41,11 +41,11 @@
 .center-text {
     color: #fff;
     font-size: 1.5rem;
-    padding-top: 10rem;
+    padding-top: 10rem !important;
     text-align: right;
 }
 .center-container {
-    padding-top: 18rem;
+    padding-top: 18rem !important;
 }
 .center-text a {
     padding-top: 2rem;
@@ -54,52 +54,53 @@
 }
 
 .middle-text {
-    padding: 2rem;
+    padding: 2rem !important;
     text-align: left;
 }
 
 .middle-left-vector {
-    max-width: 150px;
+    max-width: 150px !important;
 }
 
 .sticker {
-    transform: rotate(-15deg);
-    width: 400px;
-    margin-top: -200px;
-    margin-left: -100px;
+    transform: rotate(-10deg) !important;
+    width: 400px !important;
+    position: absolute !important;
+    left: -150px !important;
+    top: -250px !important;
 }
 
 .sticker2 {
     position: absolute;
     transform: rotate(-90deg);
-    margin-top: -170px;
-    margin-left: 170px;
+    margin-top: -170px !important;
+    margin-left: 170px !important;
 }
 
 .b-letter {
     max-width: 220px;
-    padding-left: 1.9rem;
+    padding-left: 1.9rem !important;
 }
 .l-letter {
-    padding-top: 17rem;
+    padding-top: 17rem !important;
     max-width: 220px;
-    padding-left: 1rem;
+    padding-left: 1rem !important;
 }
 .k-letter {
-    padding-top: 8rem;
-    max-width: 220px;
+    padding-top: 8rem !important;
+    max-width: 220px !important;
 }
 .l2-letter {
-    padding-top: 8rem;
-    max-width: 220px;
+    padding-top: 8rem !important;
+    max-width: 220px !important;
 }
 .z-letter {
-    padding-top: 25rem;
-    max-width: 220px;
+    padding-top: 25rem !important;
+    max-width: 220px !important;
 }
 .y-letter {
-    padding-top: 15rem;
-    max-width: 220px;
+    padding-top: 15rem !important;
+    max-width: 220px !important;
 }
 .pic {
     position: absolute;
