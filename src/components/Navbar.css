@@ -1,7 +1,8 @@
 .navbar-color {
-    background-color: #1D1E1F !important;
-    font-size: 15px;
+    background-color: rgb(152, 218, 236) !important;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+
     position: relative;
     box-sizing: border-box;
     display: grid;
@@ -9,24 +10,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
 }
-.nav-2{
-    height: 22px !important;
-    min-height: 0 !important;
-}
 .navbar-color a {
     color: #100c08 !important;
 }
-a.text-1 {
+text-1 {
     text-align: left;
-    line-height: 10px;
-    transition: border-bottom 1s ease !important;
-    border-bottom: transparent !important;
+    line-height: 16px;
 }
-a.text-1:hover{
-    background-color: #1D1E1F !important;
-    color:white;
-    border-bottom: 1px white solid !important;
-}
+
 nav-2 {
     align-self: start;
     justify-self: start;
@@ -42,13 +33,7 @@ nav-2 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-.navbar-item.text-1{
-    color: white !important;
-    position: relative;
-    left: 350px;
-    font-family: "Maven Pro", sans-serif;
-    font-weight: bolder;
-}
+
 .navbar-start {
     margin-left: auto;
 }
@@ -58,8 +43,7 @@ nav-2 {
 }
 
 .navbar-brand {
-    min-height: 0 !important;
-    height: 22px !important;
+    height: 40px !important;
 }
 /* <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 780.3 340.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780.3 340.2" height="341" width="781" data-type="shape" role="img" aria-labelledby="svgcid--ox29ycg9l6qn"><title id="svgcid--ox29ycg9l6qn"></title>
     <g>
