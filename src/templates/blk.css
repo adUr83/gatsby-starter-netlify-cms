@@ -63,11 +63,10 @@
 }
 
 .sticker {
-    transform: rotate(-10deg) !important;
-    width: 400px !important;
-    position: absolute !important;
-    left: -150px !important;
-    top: -250px !important;
+    transform: rotate(-15deg);
+    width: 400px;
+    margin-top: -200px !important;
+    margin-left: -100px !important;
 }
 
 .sticker2 {
