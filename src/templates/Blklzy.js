@@ -51,7 +51,7 @@ export default function Blklzy() {
                 <div className="column y-letter fade-in-l">
                     <img alt="y" src={Y} />
                 </div>
-                <div class=" pic">
+                <div className=" pic">
                     <img alt="pic" src={Pic} />
                 </div>
             </div>
