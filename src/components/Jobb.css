@@ -1,7 +1,7 @@
-/* body,
+body,
 html {
     background: rgb(152, 218, 236) !important;
-} */
+}
 
 .jobb-1 {
     width: 474px;
@@ -14,36 +14,32 @@ html {
     top: -6%;
 }
 
-.jobb {
-    background: rgb(152, 218, 236) !important;
-}
-.text-main-jobb {
+.text-main {
     color: black;
     padding-top: 4rem;
-
 }
 
-.text-main-jobb h2 {
+.text-main h2 {
     font-size: 5.8rem;
 }
 
-.text-main-jobb p {
+.text-main p {
     font-size: 1.4rem;
     padding: 0.75rem;
 }
 
-.text-main-jobb ul {
+.text-main ul {
     list-style: inside;
     list-style-type: disc !important;
     padding: 1rem;
 }
 
-.text-main-jobb ul li a {
+.text-main ul li a {
     text-decoration: underline;
     color: #000 !important;
 }
 
-.text-main-jobb span h2 {
+.text-main span h2 {
     font-size: 2rem;
 }
 
@@ -68,8 +64,22 @@ input[type="tel"]:focus {
     border: 1px solid rgb(236, 5, 5);
 }
 
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-.text-main-jobb div {
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+div {
     border-radius: 5px;
     padding: 20px;
 }
@@ -82,8 +92,7 @@ input[type="tel"]:focus {
 .hr {
     border: 1px solid #000;
     padding: 2rem 5rem;
-    margin-top: -11rem;
-    margin-bottom: 5rem;
+    margin-top: -12rem;
 }
 
 .hr input,
@@ -101,8 +110,6 @@ input[type="tel"]:focus {
 }
 
 .hr .send-btn {
-    cursor: pointer;
-    border: solid;
     background: transparent;
     padding: 1rem 2.5rem;
     border-color: #000;
