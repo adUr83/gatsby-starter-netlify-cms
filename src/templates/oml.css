@@ -162,7 +162,7 @@ body {
 
 @media only screen and (max-width: 575.67px) {
     .sticker-1 {
-        top: 159%;
+        top: 193%;
     }
 
     .sticker-2,
@@ -197,7 +197,7 @@ body {
 
 @media only screen and (max-width: 375.67px) {
     .sticker-1 {
-        top: 278%;
+        top: 235%;
     }
 
     .sticker-1 img {

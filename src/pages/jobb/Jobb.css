@@ -20,7 +20,6 @@ html {
 .text-main-jobb {
     color: black;
     padding-top: 4rem;
-
 }
 
 .text-main-jobb h2 {
@@ -67,7 +66,6 @@ input[type="tel"]:focus {
 .hr input:invalid {
     border: 1px solid rgb(236, 5, 5);
 }
-
 
 .text-main-jobb div {
     border-radius: 5px;
@@ -159,4 +157,28 @@ input[type="tel"]:focus {
 .hr .privacy a {
     color: #000 !important;
     text-decoration: underline;
+}
+@media only screen and (max-width: 375.67px) {
+    .jobb-2 {
+        /* display: none; */
+    }
+    .hr {
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 414.67px) {
+    .jobb-2 {
+        /* display: none; */
+    }
+    .hr {
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 768.67px) {
+    .jobb-2 {
+        /* display: none; */
+    }
+    .hr {
+        margin-top: 1rem;
+    }
 }

@@ -705,3 +705,39 @@ var {
     border-radius: var(--cornerRadius, 0);
     box-shadow: var(--boxShadow, none);
 }
+@media only screen and (max-width: 375.67px) {
+    #comp-kgtebegv {
+        display: none;
+    }
+    ._3Qjwl {
+        display: none;
+    }
+    #comp-kg80i2dl {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width: 414.67px) {
+    #comp-kgtebegv {
+        display: none;
+    }
+    ._3Qjwl {
+        display: none;
+    }
+    #comp-kg80i2dl {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width: 768.67px) {
+    #comp-kgtebegv {
+        display: none;
+    }
+    ._3Qjwl {
+        display: none;
+    }
+    #comp-kg80i2dl {
+        display: flex;
+        flex-direction: row;
+    }
+}

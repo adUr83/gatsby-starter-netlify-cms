@@ -393,3 +393,19 @@
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 768.67px) {
+    img.float-right {
+        display: none;
+    }
+    .l-letter,
+    .b-letter,
+    .l2-letter,
+    .k-letter,
+    .y-letter {
+        display: none;
+    }
+    .center-container {
+        padding: 25px;
+    }
+}
