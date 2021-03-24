@@ -23,7 +23,7 @@ export const ProductPageTemplate = ({
     fullImage,
     pricing,
 }) => (
-    <div className="">
+    <div className="oml-1">
         {/* <div
       className="full-width-image-container margin-top-0"
       style={{

@@ -20,7 +20,7 @@ import sticker from "./assets/sticker.webp";
 import sticker2 from "./assets/v2.svg";
 export default function Blklzy() {
     return (
-        <div className="blklzy">
+        <div className="blklzy" style={{ backgroundColor: "lightblue" }}>
             <div className="columns clms">
                 <div className="column b-letter fade-in">
                     <img alt="b" src={B} />
@@ -32,7 +32,7 @@ export default function Blklzy() {
                     <img alt="k" src={K} />
                 </div>
                 <div className="column animate-bottom center-container ">
-                    <span className="center-text  ">
+                    <span className="center-text   ">
                         Vi älskar när det känns, både när det är jobbigt och när
                         det svänger. Vi älskar våra små projekt och vi är
                         vansinnigt förtjusta i våra stora. Vi älskar det vi ännu
@@ -51,7 +51,7 @@ export default function Blklzy() {
                 <div className="column y-letter fade-in-l">
                     <img alt="y" src={Y} />
                 </div>
-                <div class=" pic">
+                <div className=" pic">
                     <img alt="pic" src={Pic} />
                 </div>
             </div>

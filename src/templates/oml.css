@@ -6,12 +6,15 @@
     box-sizing: border-box;
 }
 
-html,
+/* html,
 body {
     font-family: "Maven Pro", sans-serif;
-    background: #c4b2f4;
+    background: #c4b2f4  !important;
+} */
+.oml-1 {
+    font-family: "Maven Pro", sans-serif;
+    background: #c4b2f4 !important;
 }
-
 .image-box {
     overflow: hidden;
     padding: 10px;
