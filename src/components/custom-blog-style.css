@@ -146,6 +146,10 @@
     color: #beaaf4;
     font-size: 18px;
 }
+.footer-items {
+    color: #beaaf4;
+    font-size: 18px;
+}
 .footer-grid {
     position: relative;
     box-sizing: border-box;
@@ -208,6 +212,11 @@
         width: 100vw;
     }
     .blog-bottom-left-img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500.67px) {
+    .footer-item {
         display: none;
     }
 }

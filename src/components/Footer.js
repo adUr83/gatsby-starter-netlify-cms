@@ -24,18 +24,18 @@ const Footer = class extends React.Component {
                         </div>
                         <div></div>
                         <div className="footer-item">SOCIALA KANALER</div>
-                        <div className="footer-item">
+                        <div className="footer-items">
                             <br /> LinkedIn
                         </div>
-                        <div className="footer-item">BESÖK OSS</div>
-                        <div className="footer-item">
+                        <div className="footer-items">BESÖK OSS</div>
+                        <div className="footer-items">
                             Stockholm <br /> Torsgatan 4<br /> 111 23 Stockholm{" "}
                             <br />
                             <u> HITTA HIT –> </u>
                         </div>
                         <div></div>
-                        <div className="footer-item">SNACKA SÄLJ</div>
-                        <div className="footer-item">
+                        <div className="footer-items">SNACKA SÄLJ</div>
+                        <div className="footer-items">
                             <br />
                             +46 10 207 46 40 <br /> hello@blacklizzy.se
                         </div>
@@ -43,7 +43,7 @@ const Footer = class extends React.Component {
                         <div className="footer-item">COOKIES</div>
                         <div className="footer-item">Cookie Policy</div>
                         <div></div>
-                        <div className="footer-item">
+                        <div className="footer-items">
                             Malmö <br /> Nordenskiöldsgatan 24 <br />
                             211 19 Malmö <br />
                             <u> HITTA HIT –></u>
